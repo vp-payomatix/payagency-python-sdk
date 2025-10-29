@@ -1,0 +1,68 @@
+# PyPI Ignore File
+
+# Files and directories to exclude from PyPI package
+
+# Development and deployment scripts
+
+deploy.sh
+Makefile
+run_tests.py
+examples.py
+
+# Git and version control
+
+.git/
+.gitignore
+
+# Documentation files not needed in package
+
+COMPARISON.md
+DEPLOYMENT_GUIDE.md
+DEPLOYMENT.md
+INTEGRATION_TEST_RESULTS\*.md
+
+# Development requirements
+
+requirements-dev.txt
+
+# Test files (tests are included in MANIFEST.in but this is for reference)
+
+# tests/ - keeping tests in package for now
+
+# Build artifacts (already in .gitignore but for clarity)
+
+dist/
+build/
+_.egg-info/
+**pycache**/
+_.pyc
+\*.pyo
+
+# IDE and editor files
+
+.vscode/
+.idea/
+_.swp
+_.swo
+\*~
+
+# OS files
+
+.DS*Store
+.DS_Store?
+.*\*
+Thumbs.db
+
+# Coverage and testing
+
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+
+# Virtual environments
+
+venv/
+env/
+.env

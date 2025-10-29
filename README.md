@@ -755,4 +755,4 @@ For support and documentation, please visit [PayAgency Documentation](https://do
 
 **Author**: PaneruVipin
 
-**Repository**: [payagency-python](https://github.com/vp-payomatix/payagency-python)
+**Repository**: [payagency-python](https://github.com/vp-payomatix/payagency-python-sdk)
