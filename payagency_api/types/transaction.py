@@ -10,8 +10,8 @@ class TransactionsInput(TypedDict, total=False):
     """Transactions query input"""
     transaction_start_date: Optional[str]
     transaction_end_date: Optional[str]
-    next_cursor: Optional[str]
-    prev_cursor: Optional[str]
+    nextCursor: Optional[str]
+    prevCursor: Optional[str]
 
 
 class MerchantConnector(TypedDict):
@@ -57,11 +57,11 @@ class TransactionInfo(TypedDict):
 
 class TransactionMeta(TypedDict):
     """Transaction pagination metadata"""
-    has_next_page: bool
-    has_previous_page: bool
-    next_cursor: Optional[str]
-    prev_cursor: Optional[str]
-    total_count: int
+    hasNextPage: bool
+    hasPreviousPage: bool
+    nextCursor: Optional[str]
+    prevCursor: Optional[str]
+    totatCount: int
 
 
 class TransactionsResponse(TypedDict):

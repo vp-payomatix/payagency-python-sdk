@@ -103,7 +103,7 @@ class Payout:
         }
         
         endpoint = endpoints[self.client.environment]
-        return self.client.make_request("POST", endpoint, data)
+        return self.client.make_request("POST", endpoint, data,skip_encryption=True)
     
     def get_payout_status(self, payout_reference: str) -> PayoutStatusResponse:
         """

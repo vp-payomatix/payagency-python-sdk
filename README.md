@@ -550,8 +550,8 @@ Query transaction history:
 transactions = pay_agency.txn.get_transactions({
     "transaction_start_date": "2023-01-01",  # optional
     "transaction_end_date": "2023-12-31",  # optional
-    "next_cursor": "cursor_value",  # optional - for pagination
-    "prev_cursor": "cursor_value",  # optional - for pagination
+    "nextCursor": "cursor_value",  # optional - for pagination
+    "prevCursor": "cursor_value",  # optional - for pagination
 })
 
 # Response format:
@@ -590,11 +590,11 @@ transactions = pay_agency.txn.get_transactions({
         }
     ],
     "meta": {
-        "has_next_page": bool,
-        "has_previous_page": bool,
-        "next_cursor": str,  # optional
-        "prev_cursor": str,  # optional
-        "total_count": int,
+        "hasNextPage": bool,
+        "hasPreviousPage": bool,
+        "nextCursor": str,  # optional
+        "prevCursor": str,  # optional
+        "totalCount": int,
     }
 }
 ```
