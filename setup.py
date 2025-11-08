@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="payagency-api",
-    version="1.0.1",
+    version="1.1.0",
     author="PaneruVipin",
     author_email="support@pay.agency",
     description="A comprehensive Python SDK for PayAgency payment processing platform",
